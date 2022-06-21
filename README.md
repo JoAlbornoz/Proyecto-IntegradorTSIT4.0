@@ -1,10 +1,7 @@
 # Actividad: Proyecto Integrador
+![image](https://user-images.githubusercontent.com/87395600/174906450-8683b0b3-da13-4356-8cef-432073d5088b.png)
 
 Instituto Superior Politécnico Córdoba 
-
-Tecnicatura Superior en Innovación con Tecnologías 4.0
-
-Programación inicial
 
 AULA 4 - COHORTE 2022
 
