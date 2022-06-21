@@ -12,3 +12,4 @@ AULA 4 - COHORTE 2022
 (Por fa, vayan agregándose)
 - Dina Damaris Vallejos  
 - Gustavo Alberto Godoy  
+- Gabriel Aguirre Flaska
