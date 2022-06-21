@@ -13,3 +13,4 @@ AULA 4 - COHORTE 2022
 - Dina Damaris Vallejos  
 - Gustavo Alberto Godoy  
 - Gabriel Aguirre Flaska
+- Candela Iara Neil
