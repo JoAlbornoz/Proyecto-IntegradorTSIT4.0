@@ -1,7 +1,7 @@
 # Actividad: Proyecto Integrador
-![image](https://user-images.githubusercontent.com/87395600/174906450-8683b0b3-da13-4356-8cef-432073d5088b.png)
+![ISPC](https://user-images.githubusercontent.com/87395600/174913447-642ca6df-e52e-40aa-94e1-55df8073b066.png)
 
-Instituto Superior Politécnico Córdoba 
+Modulo: Programación Inicial
 
 AULA 4 - COHORTE 2022
 
