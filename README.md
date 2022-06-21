@@ -14,3 +14,4 @@ AULA 4 - COHORTE 2022
 - Gustavo Alberto Godoy  
 - Gabriel Aguirre Flaska
 - Candela Iara Neil
+- Carlos Nahuel Otero
