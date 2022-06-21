@@ -10,4 +10,5 @@ AULA 4 - COHORTE 2022
 
 - María Josefina Albornoz
 (Por fa, vayan agregándose)
-- Dina Damaris Vallejos 
+- Dina Damaris Vallejos  
+- Gustavo Alberto Godoy  
