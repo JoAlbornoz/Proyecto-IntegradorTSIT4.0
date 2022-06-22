@@ -15,3 +15,4 @@ AULA 4 - COHORTE 2022
 - Gabriel Aguirre Flaska
 - Candela Iara Neil
 - Carlos Nahuel Otero
+- Lourdes Inés Reynaldo
