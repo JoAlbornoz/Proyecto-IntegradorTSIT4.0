@@ -41,7 +41,9 @@ Recibe como parámetro la lista
 devuelve el valor máximo de todos los elementos que contiene.
 '''
 
-
+def maximo(lista):
+    res = max(lista)
+    return res
 
 
 
