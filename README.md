@@ -16,6 +16,7 @@ AULA 4 - COHORTE 2022
 - Candela Iara Neil
 - Carlos Nahuel Otero
 - Lourdes Inés Reynaldo
+- Ruth Cabrera
 
 
 
