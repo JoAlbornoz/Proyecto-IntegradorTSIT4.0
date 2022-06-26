@@ -53,10 +53,10 @@ def maximo(lista):
 Recibe como parámetro la lista
 devuelve el valor mínimo de todos los elementos que contiene.
 '''
-
-
-
-
+def minimo(lista):
+    res = min(lista)
+    return res
+    
 
 #==================
 #Funcion Principal
