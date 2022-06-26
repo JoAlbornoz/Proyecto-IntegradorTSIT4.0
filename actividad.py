@@ -10,8 +10,6 @@ Creación de lista.
 '''
 
 
-
-
 #==================
 #Funcion Suma
 '''
@@ -19,7 +17,9 @@ Recibe como parámetro la lista
 Devuelve la suma total de todos sus elementos.
 '''
 
-
+def suma(lista):
+	resultado = sum(lista)
+	return resultado
 
 
 
