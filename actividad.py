@@ -9,6 +9,14 @@ Pedir al usuario que ingrese 5 valores enteros
 Creación de lista.
 '''
 
+lista=[]
+
+for x in range(5):
+    numero = int(input("Ingrese un número entero: "))
+    lista.append(numero)
+
+print("Su nueva lista es: ", lista)
+
 
 #==================
 #Funcion Suma
