@@ -50,7 +50,8 @@ def suma(lista):
 Recibe como parámetro la lista
 devuelve el promedio de sus elementos.
 '''
-
+def prom(lista):
+        return sum(lista) / len (lista)
 
 
 
