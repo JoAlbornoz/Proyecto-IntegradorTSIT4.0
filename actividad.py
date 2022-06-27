@@ -8,16 +8,16 @@
 Pedir al usuario que ingrese 5 valores enteros
 Creación de lista.
 '''
-#sincronizando mi VSCode y pensando mi aporte
+def Ingreso_Lista():
 
-lista=[]
+    lista=[]
 
-for x in range(5):
-    numero = int(input("Ingrese un número entero: "))
-    lista.append(numero)
-
-print("Su nueva lista es: ", lista)
-
+    for x in range(5):
+        numero = int(input("Ingrese un número entero: "))
+        lista.append(numero)
+    return lista
+    #print("Su nueva lista es: ", lista)   "retiro la porción de codigo para que no se imprima nada desde dentro de la función"
+    #La función devuelve lista de 5 valores para ser utilizada fuera de la función.
 
 #==================
 #Funcion Suma
