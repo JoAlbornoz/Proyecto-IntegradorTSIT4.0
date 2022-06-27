@@ -16,4 +16,4 @@ AULA 4 - COHORTE 2022
 - Carlos Nahuel Otero
 - Ruth Cabrera
 - Sharon M. Mulka
-- 
+- Augusto Leandro Esteban Chamorro
