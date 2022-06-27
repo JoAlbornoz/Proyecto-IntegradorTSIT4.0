@@ -8,6 +8,7 @@
 Pedir al usuario que ingrese 5 valores enteros
 Creación de lista.
 '''
+#sincronizando mi VSCode y pensando mi aporte
 
 lista=[]
 
