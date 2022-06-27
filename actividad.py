@@ -13,11 +13,23 @@ def Ingreso_Lista():
     lista=[]
 
     for x in range(5):
-        numero = int(input("Ingrese un número entero: "))
+        while True:
+            try:
+                numero = int(input("Ingrese un número entero: "))
+            except ValueError:
+                print("Solo se permiten números enteros, vuelve a cargarlo.")
+                continue
+            else:
+                break
+
         lista.append(numero)
     return lista
-    #print("Su nueva lista es: ", lista)   "retiro la porción de codigo para que no se imprima nada desde dentro de la función"
-    #La función devuelve lista de 5 valores para ser utilizada fuera de la función.
+ 
+  
+ 
+    # 1) print("Su nueva lista es: ", lista)   "retiro la porción de codigo para que no se imprima nada desde dentro de la función"
+    # 2) La función devuelve lista de 5 valores para ser utilizada fuera de la función.
+    # 3) Se me ocurrio agregar mejora para controlar que el número ingresado sea entero y no genere fallo (investigue y agregue: while con try y except)
 
 #==================
 #Funcion Suma
