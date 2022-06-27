@@ -1,4 +1,4 @@
-li = [] 
 
-def prom(li):
-        return sum(li) / len (li)
+
+def promedio(lista):
+        return sum(lista) / len (lista)
