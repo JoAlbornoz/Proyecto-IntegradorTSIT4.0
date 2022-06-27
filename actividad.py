@@ -24,12 +24,33 @@ def Ingreso_Lista():
 
         lista.append(numero)
     return lista
- 
-  
- 
+
+
+
     # 1) print("Su nueva lista es: ", lista)   "retiro la porción de codigo para que no se imprima nada desde dentro de la función"
     # 2) La función devuelve lista de 5 valores para ser utilizada fuera de la función.
     # 3) Se me ocurrio agregar mejora para controlar que el número ingresado sea entero y no genere fallo (investigue y agregue: while con try y except)
+
+
+#==================
+#Funcion Seleccion
+
+def seleccion(lista):
+    print ("""
+    Estas son las operaciones que puedo realizar:
+
+    1 - Sumar los numeros ingresados.
+    2 - Calcular el promedio de los numeros ingresados.
+    3 - Mostrar el valor maximo ingresado.
+    4 - Mostrar el valor minimo ingresado.
+    5 - Terminar y salir.
+    """)
+    #El usuario ingresa el numero de la operacion que quiere realizar
+    opcion = input("Ingresar el numero de la operacion: ")
+    return opcion
+
+
+
 
 #==================
 #Funcion Suma
@@ -50,7 +71,8 @@ def suma(lista):
 Recibe como parámetro la lista
 devuelve el promedio de sus elementos.
 '''
-
+def prom(lista):
+        return sum(lista) / len (lista)
 
 
 
