@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import sys
 
 #==================
 #Funcion ingreso-lista
@@ -35,7 +36,7 @@ def Ingreso_Lista():
 #==================
 #Funcion Seleccion
 
-def seleccion(lista):
+def seleccion(): # no recibe ningun parametro de entrada
     print ("""
     Estas son las operaciones que puedo realizar:
 
@@ -74,11 +75,11 @@ devuelve el promedio de sus elementos.
 '''
 #prueba
 def prom(lista):
-        return sum(lista) / len (lista)
+    return sum(lista) / len (lista)
 
 
 
-
+True
 #==================
 #Funcion Maximo
 '''
@@ -105,3 +106,42 @@ def minimo(lista):
 
 #==================
 #Funcion Principal
+
+def main():
+    print('''
+    
+     ''')
+    print('='*50)
+
+    print('Actividad integradora Programacion Inicial IT4.0')
+    print('-'*22+'Aula 4'+'-'*22)
+    print('''
+    
+     ''')
+
+    lista = Ingreso_Lista()
+
+    while True:
+        opcion = seleccion()
+
+        if opcion == '1':
+            print('La suma de los elementos es:', suma(lista))
+            
+        elif opcion == '2':
+            print('El promedio de los elementos es:', prom(lista))
+
+        elif opcion == '3':
+            print('El máximo elemento es:', maximo(lista))
+
+        elif opcion == '4':
+            print('El mínimo elemento es:', minimo(lista))
+
+        elif opcion == '5':
+            sys.exit(1)
+        else:
+            print('La opción seleccionada no es válida, por favor intentelo de nuevo.')
+
+        
+
+if __name__ == '__main__':
+    main()
