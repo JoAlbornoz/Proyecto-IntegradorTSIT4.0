@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import sys
+import sys, time
 
 #==================
 #Funcion ingreso-lista
@@ -136,7 +136,13 @@ def main():
         elif opcion == '4':
             print('El mínimo elemento es:', minimo(lista))
 
-        elif opcion == '5':
+        elif opcion == '5': #siguiendo la idea de Nahuel, se puede hacer un saludo sin salir del ciclo hasta que se ejecute sys.exit(1)
+            print(
+                '''
+                SUERTE
+                '''
+            )   #Esto se puede embellecer
+            time.sleep(.5)      #detiene la ejecución x segundos (0,5 en este caso)
             sys.exit(1)
         else:
             print('La opción seleccionada no es válida, por favor intentelo de nuevo.')
