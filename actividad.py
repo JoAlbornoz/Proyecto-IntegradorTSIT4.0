@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys, time
+import winsound   
 
 #==================
 #Funcion ingreso-lista
@@ -108,6 +109,7 @@ def minimo(lista):
 #Funcion Principal
 
 def main():
+    winsound.PlaySound("hussein_got_im.wav", winsound.SND_ASYNC)   #Para el grupo
     print('''
     
      ''')
