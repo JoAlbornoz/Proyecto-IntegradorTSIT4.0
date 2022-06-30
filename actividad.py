@@ -101,8 +101,14 @@ Recibe como parámetro la lista
 devuelve el valor mínimo de todos los elementos que contiene.
 '''
 def minimo(lista):
-    res = min(lista)
-    return res
+    #res = min(lista)
+    #return res
+
+    Menor=lista[0]
+    for x in lista:
+        if x < Menor:
+           Menor=x
+    return Menor
     
 
 #==================
