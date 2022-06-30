@@ -3,7 +3,7 @@
 
 Modulo: Programación Inicial
 
-AULA 4 - COHORTE 2022
+COHORTE 2022
 
 
 ## Alumnos/as
@@ -17,3 +17,4 @@ AULA 4 - COHORTE 2022
 - Ruth Cabrera
 - Sharon M. Mulka
 - Augusto Leandro Esteban Chamorro
+- Ivan Gonzalez
