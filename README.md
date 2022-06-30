@@ -17,3 +17,4 @@ AULA 4 - COHORTE 2022
 - Ruth Cabrera
 - Sharon M. Mulka
 - Augusto Leandro Esteban Chamorro
+- Ivan Gonzalez
