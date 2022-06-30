@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys, time
-import winsound   
+#import winsound   
 
 #==================
 #Funcion ingreso-lista
@@ -89,10 +89,17 @@ devuelve el valor máximo de todos los elementos que contiene.
 '''
 
 def maximo(lista):
+    
+    '''
     res = max(lista)
     return res
+    '''
 
-
+    mayor=lista[0]
+    for i in lista:
+        if i > mayor:
+           mayor=i
+    return mayor
 
 #==================
 #Funcion Minimo
@@ -111,11 +118,14 @@ def minimo(lista):
     return Menor
     
 
+
+def seguir():
+    print('sigo? s/n')
 #==================
 #Funcion Principal
 
 def main():
-    winsound.PlaySound("hussein_got_im.wav", winsound.SND_ASYNC)   #Para el grupo
+    #winsound.PlaySound("hussein_got_im.wav", winsound.SND_ASYNC)   #Para el grupo
     print('''
     
      ''')
@@ -130,11 +140,12 @@ def main():
     lista = Ingreso_Lista()
 
     while True:
+        
         opcion = seleccion()
 
         if opcion == '1':
             print('La suma de los elementos es:', suma(lista))
-            
+
         elif opcion == '2':
             print('El promedio de los elementos es:', prom(lista))
 
