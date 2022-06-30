@@ -42,10 +42,11 @@ def seleccion(): # no recibe ningun parametro de entrada
     Estas son las operaciones que puedo realizar:
 
     1 - Sumar los numeros ingresados.
-    2 - Calcular el promedio de los numeros ingresados.
-    3 - Mostrar el valor maximo ingresado.
-    4 - Mostrar el valor minimo ingresado.
-    5 - Terminar y salir.
+    2 - Restar los numeros ingresados.
+    3 - Calcular el promedio de los numeros ingresados.
+    4 - Mostrar el valor maximo ingresado.
+    5 - Mostrar el valor minimo ingresado.
+    6 - Terminar y salir.
     """)
     #El usuario ingresa el numero de la operacion que quiere realizar
     opcion = input("Ingresar el numero de la operacion: ")
@@ -65,6 +66,21 @@ def suma(lista):
 	resultado = sum(lista)
 	return resultado
 
+
+
+#==================
+#Funcion Resta
+'''
+
+Recibe como parámetro la lista
+Devuelve la resta total de todos sus elementos
+'''
+
+def restar(lista):
+    if len (lista) == 1:
+      return lista[0]
+    else:
+        return restar (lista[:-1]) - lista[-1]
 
 
 #==================
@@ -147,15 +163,18 @@ def main():
             print('La suma de los elementos es:', suma(lista))
 
         elif opcion == '2':
-            print('El promedio de los elementos es:', prom(lista))
+            print('El producto entre estos numeros es:', restar(lista))    
 
         elif opcion == '3':
-            print('El máximo elemento es:', maximo(lista))
+            print('El promedio de los elementos es:', prom(lista))
 
         elif opcion == '4':
+            print('El máximo elemento es:', maximo(lista))
+
+        elif opcion == '5':
             print('El mínimo elemento es:', minimo(lista))
 
-        elif opcion == '5': #siguiendo la idea de Nahuel, se puede hacer un saludo sin salir del ciclo hasta que se ejecute sys.exit(1)
+        elif opcion == '6': #siguiendo la idea de Nahuel, se puede hacer un saludo sin salir del ciclo hasta que se ejecute sys.exit(1)
             print(
                 '''
                 SUERTE
