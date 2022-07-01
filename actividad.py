@@ -185,5 +185,23 @@ def main():
 
         
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
+    main()
+def main():
+    lista = Ingreso_Lista() 
+
+    opcion = seleccion()
+    if opcion == "1":
+        print("la suma de los elementos es:, suma(lista)")
+    elif opcion == "2":
+        print("el promedio de los elemntos es:, promedio(lista)")
+    elif opcion == "3":
+        print("el maximo de los elemntos es:, maximo(lista)")
+    elif opcion == "4":
+        print("el minimo de los elementos es:, minimo(lista)") 
+
+
+
+### ejecucion del main ##
+if _name_ == "_main_":
     main()
