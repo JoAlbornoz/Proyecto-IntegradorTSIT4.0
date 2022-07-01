@@ -135,8 +135,6 @@ def minimo(lista):
     
 
 
-#def seguir():
- #   print('sigo? s/n')
 #==================
 #Funcion Principal
 
