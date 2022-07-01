@@ -137,7 +137,7 @@ def minimo(lista):
 
 #==================
 #Funcion Principal
-
+"""
 def main():
     #winsound.PlaySound("hussein_got_im.wav", winsound.SND_ASYNC)   #Para el grupo
     print('''
@@ -183,7 +183,27 @@ def main():
         else:
             print('La opción seleccionada no es válida, por favor intentelo de nuevo.')
 
-        
+"""        
+def main():
+    lista = Ingreso_Lista() 
+     while True:
+       opcion = seleccion()
+       if opcion == '1':
+	    print('La suma de los elementos es:', suma(lista))
+       elif opcion == '2':
+	    print('El producto entre estos numeros es:', restar(lista))    
+       elif opcion == '3':
+	    print('El promedio de los elementos es:', prom(lista))
+       elif opcion == '4':
+	    print('El máximo elemento es:', maximo(lista))
+       elif opcion == '5':
+	    print('El mínimo elemento es:', minimo(lista))
+       elif opcion == '6': 
+	    break
+       else:
+	    print('La opción seleccionada no es válida, por favor intentelo de nuevo.')
 
-if __name__ == '__main__':
+
+### ejecucion del main ##
+if __name__ == "__main__":
     main()
