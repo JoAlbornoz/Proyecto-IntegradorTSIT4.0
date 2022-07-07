@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from genericpath import exists
 import sys, time
 #import winsound   
 
@@ -185,23 +186,33 @@ def main():
 
 """        
 def main():
+    print('''
+    
+     ''')
+    print('='*50)
+
+    print('Actividad integradora Programacion Inicial IT4.0')
+    print('-'*22+'Aula 4'+'-'*22)
+    print('''
+    
+     ''')
     lista = Ingreso_Lista() 
-     while True:
-       opcion = seleccion()
-       if opcion == '1':
-	    print('La suma de los elementos es:', suma(lista))
-       elif opcion == '2':
-	    print('El producto entre estos numeros es:', restar(lista))    
-       elif opcion == '3':
-	    print('El promedio de los elementos es:', prom(lista))
-       elif opcion == '4':
-	    print('El máximo elemento es:', maximo(lista))
-       elif opcion == '5':
-	    print('El mínimo elemento es:', minimo(lista))
-       elif opcion == '6': 
-	    break
-       else:
-	    print('La opción seleccionada no es válida, por favor intentelo de nuevo.')
+    while True:
+        opcion = seleccion()
+        if opcion == '1':
+            print('La suma de los elementos es:', suma(lista))
+        elif opcion == '2':
+            print('El producto entre estos numeros es:', restar(lista))    
+        elif opcion == '3':
+            print('El promedio de los elementos es:', prom(lista))
+        elif opcion == '4':
+            print('El máximo elemento es:', maximo(lista))
+        elif opcion == '5':
+            print('El mínimo elemento es:', minimo(lista))
+        elif opcion == '6': 
+            break
+        else:
+            print('La opción seleccionada no es válida, por favor intentelo de nuevo.')
 
 
 ### ejecucion del main ##
